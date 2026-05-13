@@ -9,7 +9,7 @@
 
 - [x] **Struttura monorepo** — Cartelle `client/`, `server/`, `shared/` con TypeScript configurato in tutti e tre
 - [x] **Schema MySQL iniziale** — Tabelle `users`, `groups`, `group_members`, `summoners`
-- [ ] **Configurazione ambiente** — ESLint, Prettier, variabili d'ambiente (`.env`), `.gitignore`
+- [x] **Configurazione ambiente** — ESLint, Prettier, variabili d'ambiente (`.env`), `.gitignore`
 
 ---
 
