@@ -4,6 +4,7 @@ import cors from 'cors';
 import helmet from 'helmet';
 import dotenv from 'dotenv';
 import authRoutes from './routes/auth';
+import summonerRoutes from './routes/summoners';
 
 dotenv.config();
 
@@ -22,6 +23,7 @@ app.get('/health', (_req, res) => {
 });
 
 app.use('/api/auth', authRoutes);
+app.use('/api/summoners', summonerRoutes);
 
 app.listen(PORT, async() => {
   console.log(`Server running on http://localhost:${PORT}`);
