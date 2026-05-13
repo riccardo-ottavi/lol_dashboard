@@ -15,9 +15,9 @@
 
 ## Fase 1 — Autenticazione `3–5 giorni`
 
-- [ ] **OAuth Discord (backend)** — Flusso OAuth2, generazione JWT, salvataggio utente su DB
-- [ ] **Middleware autenticazione** — Verifica JWT su ogni route protetta
-- [ ] **Pagina login + routing frontend** — Landing page, protected routes con React Router, gestione token lato client
+- [x] **OAuth Discord (backend)** — Flusso OAuth2, generazione JWT, salvataggio utente su DB
+- [x] **Middleware autenticazione** — Verifica JWT su ogni route protetta
+- [x] **Pagina login + routing frontend** — Landing page, protected routes con React Router, gestione token lato client
 
 ---
 
